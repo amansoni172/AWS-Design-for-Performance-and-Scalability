@@ -1,0 +1,29 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased Cost Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,434.34,5212.08,USD,Number of NAT Gateways (2)
+Increased Cost Estimate,US East (N. Virginia),S3 Standard,0,1286.52,15438.24,USD,S3 Standard storage (50 TB per month)
+Increased Cost Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Internet) 150 TB per month 
+ Outbound (to: Amazon Cloud Front) 250 TB per month 
+"
+Increased Cost Estimate,US East (N. Virginia),Amazon Elastic IP,0,262.8,3153.6,USD,"EC2 instances (4), Number of EIPs per instance (2)"
+Increased Cost Estimate,US East (N. Virginia),Amazon EC2,0,1055.4,12664.8,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (20 GB)"
+Increased Cost Estimate,US East (N. Virginia),Elastic Load Balancing,0,360.53,4326.36,USD,Number of Application Load Balancers (2)
+Increased Cost Estimate,US East (N. Virginia),Amazon CloudWatch,0,303.155,3637.86,USD,
+Increased Cost Estimate,US East (N. Virginia),Amazon Route 53,0,643.5,7722,USD,"Number of Elastic Network Interfaces (2), Hosted Zones (2)"
+Increased Cost Estimate,US East (N. Virginia),Amazon EC2,0,1686,20232,USD,"Operating system (Linux), Quantity (24), Storage for each EC2 instance (Throughput Optimized HDD (st1)), Storage amount (20 GB)"
+Increased Cost Estimate,US East (N. Virginia),S3 One Zone - Infrequent Access,0,768.002,9216.02,USD,S3 One Zone-IA storage (25 TB per month)
+Increased Cost Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Internet) 100 TB per month 
+ Outbound (to: Amazon Cloud Front) 50 TB per month 
+"
+Increased Cost Estimate,US East (N. Virginia),S3 Glacier,0,106.65,1279.8,USD,S3 Glacier storage (25 TB per month)
+Increased Cost Estimate,US East (Ohio),Amazon RDS for MySQL,0,3426.752,41121.02,USD,"Quantity (4), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (500 GB), Provisioning IOPS (2000), Additional backup storage (500 GB)"
+Increased Cost Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,3426.752,41121.02,USD,"Quantity (4), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (500 GB), Provisioning IOPS (2000), Additional backup storage (500 GB)"
+Increased Cost Estimate,US East (Ohio),Amazon Virtual Private Cloud (VPC),0,434.34,5212.08,USD,Number of NAT Gateways (2)
+Increased Cost Estimate,US East (Ohio),Amazon Elastic IP,0,262.8,3153.6,USD,"Number of EC2 instances (24), Number of EIPs per instance (2)"
+Increased Cost Estimate,US East (Ohio),Elastic Load Balancing,0,360.53,4326.36,USD,Number of Application Load Balancers (2)
+Increased Cost Estimate,US East (Ohio),Amazon EC2,0,1055.4,12664.8,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (20 GB)"
+Increased Cost Estimate,US East (Ohio),Amazon EC2,0,2192.33,26307.96,USD,"Operating system (Linux), Storage for each EC2 instance (Throughput Optimized HDD (st1)), Storage amount (20 GB)"
+Increased Cost Estimate,US East (Ohio),Amazon Route 53,0,643.5,7722,USD,"Number of Elastic Network Interfaces (2), Hosted Zones (2)"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,

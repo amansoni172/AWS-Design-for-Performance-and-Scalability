@@ -1,0 +1,22 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Reduced Cost Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,434.34,5212.08,USD,Number of NAT Gateways (2)
+Reduced Cost Estimate,US East (N. Virginia),S3 Standard,0,1286.52,15438.24,USD,S3 Standard storage (50 TB per month)
+Reduced Cost Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Internet) 150 TB per month 
+ Outbound (to: Amazon Cloud Front) 250 TB per month 
+"
+Reduced Cost Estimate,US East (N. Virginia),Amazon Elastic IP,0,262.8,3153.6,USD,"EC2 instances (4), Number of EIPs per instance (2)"
+Reduced Cost Estimate,US East (N. Virginia),Amazon EC2,0,962.54,11550.48,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (20 GB)"
+Reduced Cost Estimate,US East (N. Virginia),Elastic Load Balancing,0,360.53,4326.36,USD,Number of Application Load Balancers (2)
+Reduced Cost Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,482.313,5787.76,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (500 GB), Additional backup storage (500 GB)"
+Reduced Cost Estimate,US East (N. Virginia),Amazon CloudWatch,0,150.5705,1806.85,USD,
+Reduced Cost Estimate,US East (N. Virginia),Amazon Route 53,0,643.5,7722,USD,"Number of Elastic Network Interfaces (2), Hosted Zones (2)"
+Reduced Cost Estimate,US East (N. Virginia),Amazon EC2,0,862.56,10350.72,USD,"Operating system (Linux), Storage for each EC2 instance (Throughput Optimized HDD (st1)), Storage amount (20 GB)"
+Reduced Cost Estimate,US East (N. Virginia),S3 One Zone - Infrequent Access,0,768.002,9216.02,USD,S3 One Zone-IA storage (25 TB per month)
+Reduced Cost Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Internet) 100 TB per month 
+ Outbound (to: Amazon Cloud Front) 50 TB per month 
+"
+Reduced Cost Estimate,US East (N. Virginia),S3 Glacier,0,106.65,1279.8,USD,S3 Glacier storage (25 TB per month)
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
